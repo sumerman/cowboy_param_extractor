@@ -1,0 +1,11 @@
+{application, cowboy_param_extractor,
+ [
+  {description, "Small library that helps extract and validate params of request in a Cowboy REST handler."},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
